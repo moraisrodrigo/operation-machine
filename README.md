@@ -1,4 +1,4 @@
-# Challenge Project
+# Operation Machine
 
 This project implements a machine for performing operations based on textual instructions.
 

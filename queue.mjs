@@ -30,10 +30,7 @@ export class Queue {
 
   pop = operationName => {
     if (this.isEmpty(operationName)) return undefined;
-    // this.lastResult = [...this.elements];
-    // const value = this.elements.shift();
-    // this.accumulator = value;
-    return this.accumulator = this.elements.shift();
+    return this.accumulator = this.elements.pop();
   };  
 
   POP = () => {

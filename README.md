@@ -6,14 +6,14 @@ This project implements a machine for performing operations based on textual ins
 
 This machine should support the following instructions:
 
-PUSH X: Pushes the value X onto the queue.
-ADD: Adds the top two values of the queue together and pushes the result back.
-SUB: Subtracts the value at the top of the queue from the next value and pushes the result back.
-MUL: Multiplies the top two values of the queue and pushes the result back.
-DIV: Divides the value at the top of the queue by the next value and pushes the result back.
-DUP: Duplicates the value at the top of the queue.
-POP: Removes the value at the top of the queue.
-SWAP: Swaps the position of the top two values in the queue.
+- `PUSH` X: Pushes the value X onto the queue.
+- `ADD`: Adds the top two values of the queue together and pushes the result back.
+- `SUB`: Subtracts the value at the top of the queue from the next value and pushes the result back.
+- `MUL`: Multiplies the top two values of the queue and pushes the result back.
+- `DIV`: Divides the value at the top of the queue by the next value and pushes the result back.
+- `DUP`: Duplicates the value at the top of the queue.
+- `POP`: Removes the value at the top of the queue.
+- `SWAP`: Swaps the position of the top two values in the queue.
 
 
 ## Getting Started
